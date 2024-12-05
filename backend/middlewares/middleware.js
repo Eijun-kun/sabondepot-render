@@ -20,7 +20,7 @@ middleware.use(cookieParser());
 
 middleware.use(cors({
     credentials: true,
-    origin: 'https://sabondepot-render-backend.onrender.com',
+    origin: 'https://sabondepot-render-frontend.onrender.com',
     methods: ['GET', 'POST', 'PUT', 'DELETE']
 }))
 
