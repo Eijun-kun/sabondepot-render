@@ -207,7 +207,7 @@ function AdminDashboardPage() {
                                     <div>
                                         <>
                                             <img
-                                            src={`http://localhost:8000/${product.productId.imageUrl}`}
+                                            src={`https://sabondepot-render-backend.onrender.com/${product.productId.imageUrl}`}
                                             alt={product.productId.productName || 'Product'}
                                             />
                                             <strong>{product.productName}</strong>

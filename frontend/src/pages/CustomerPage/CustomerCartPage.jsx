@@ -146,7 +146,7 @@ function CustomerCartPage() {
                                                 />
                                             </td>
                                             <td className='product-info'>
-                                                <img src={`http://localhost:8000/${cartItem.productId.imageUrl}`} alt="Product" className='product-image' />
+                                                <img src={`https://sabondepot-render-backend.onrender.com/${cartItem.productId.imageUrl}`} alt="Product" className='product-image' />
                                                 <div className='product-description'>
                                                     <p>{cartItem.productId.productName}</p>
                                                 </div>

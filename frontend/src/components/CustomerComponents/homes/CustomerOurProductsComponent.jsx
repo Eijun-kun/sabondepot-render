@@ -35,7 +35,7 @@ function CustomerOurProductsComponent() {
                             <li key={product._id}>
                                 <div>
                                     <div className='product-image-container'>
-                                        <img src={`http://localhost:8000/${product.imageUrl}`} alt={product.productName} />
+                                        <img src={`https://sabondepot-render-backend.onrender.com/${product.imageUrl}`} alt={product.productName} />
                                         {
                                             index === products.length - 1 && (
                                                 <div className='new-badge'>New</div>

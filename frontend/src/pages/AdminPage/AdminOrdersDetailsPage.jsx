@@ -103,7 +103,7 @@ function AdminOrdersDetailsPage() {
                     {
                         order.items.map(item => (
                             <tr key={item._id}>
-                                <td style={{ display: 'flex', alignItems: 'center' }}><img src={`http://localhost:8000/${item.imageUrl}`} alt='' />{item.productName}</td>
+                                <td style={{ display: 'flex', alignItems: 'center' }}><img src={`https://sabondepot-render-backend.onrender.com/${item.imageUrl}`} alt='' />{item.productName}</td>
                                 <td>{item.sku}</td>
                                 <td>{item.location}</td>
                                 <td>{item.quantity ?? 'N/A'}</td>
