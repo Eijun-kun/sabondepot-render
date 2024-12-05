@@ -48,7 +48,7 @@ function CustomerHashtagSabonDepotComponent() {
                 products.map((product, index) => (
                     <img
                         key={index}
-                        src={`https://sabondepot-render-frontend.onrender.com/${product.imageUrl}`}
+                        src={`https://sabondepot-render-backend.onrender.com/${product.imageUrl}`}
                         alt={product.name}
                         className={`product-image product-${index + 1}`}
                     />

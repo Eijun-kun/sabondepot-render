@@ -86,7 +86,7 @@ function CustomerShopContentComponent() {
                             <li key={product._id}>
                                 <div>
                                     <div className='product-image-container'>
-                                        <img src={`https://sabondepot-render-frontend.onrender.com/${product.imageUrl}`} alt={product.productName} />
+                                        <img src={`https://sabondepot-render-backend.onrender.com/${product.imageUrl}`} alt={product.productName} />
                                         {
                                             index === products.length - 1 && (
                                                 <div className='new-badge'>New</div>

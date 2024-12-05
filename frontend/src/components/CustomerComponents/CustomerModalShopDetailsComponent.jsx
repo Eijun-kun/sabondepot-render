@@ -76,7 +76,7 @@ function CustomerModalShopDetailsComponent({isOpen, onClose, cartItems, setCartI
                         ) : (
                             Array.isArray(cartItems) && cartItems.map((cartItem) => (
                                 <div key={cartItem._id} className='customer-modal-content-group'>
-                                    <img src={`https://sabondepot-render-frontend.onrender.com/${cartItem.productId.imageUrl}`} alt="" className='customer-modal-product-items' />
+                                    <img src={`https://sabondepot-render-backend.onrender.com/${cartItem.productId.imageUrl}`} alt="" className='customer-modal-product-items' />
                                     <div className='customer-modal-product-items-content'>
                                         <span>{cartItem.productId.productName}</span>
                                         <p>

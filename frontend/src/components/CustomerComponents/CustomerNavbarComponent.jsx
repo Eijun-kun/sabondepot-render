@@ -215,7 +215,7 @@ function CustomerNavbarComponent({customerToggleSidebar}) {
                             <li className='customer-navbar-dropdown-container'>
                                 <div className='customer-navbar-dropdown-trigger' onClick={toggleDropdown}>
                                     <img
-                                    src={(customer.profilePicture ? `https://sabondepot-render-frontend.onrender.com/${customer.profilePicture}` : customerDefaultProfilePicture)}
+                                    src={(customer.profilePicture ? `https://sabondepot-render-backend.onrender.com/${customer.profilePicture}` : customerDefaultProfilePicture)}
                                     className='profile-picture'
                                     alt={customer.fullName}
                                     />

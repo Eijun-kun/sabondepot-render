@@ -9,7 +9,7 @@ import CustomerRoutes from './routes/CustomerRoutes'
 import AdminStaffRoutes from './routes/AdminStaffRoutes'
 import { isAdminRoute, isAdminStaffRoute, isCustomerRoute, isStaffRoute } from './utils/RoutesUtils';
 
-axios.defaults.baseURL = 'https://sabondepot-render-frontend.onrender.com';
+axios.defaults.baseURL = 'https://sabondepot-render-backend.onrender.com';
 axios.defaults.withCredentials = true;
 
 

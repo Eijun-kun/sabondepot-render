@@ -86,7 +86,7 @@ function CustomerPlaceOrderPage() {
             order.items.map(item => (
                 <div key={item.productId._id} className='customer-place-order-item'>
                     <div className='item-image'>
-                        <img src={`https://sabondepot-render-frontend.onrender.com/${item.productId.imageUrl}`} alt={item.productId.productName} />
+                        <img src={`https://sabondepot-render-backend.onrender.com/${item.productId.imageUrl}`} alt={item.productId.productName} />
                     </div>
                     <div className='item-details'>
                         <h3>{item.productId.productName}</h3>
