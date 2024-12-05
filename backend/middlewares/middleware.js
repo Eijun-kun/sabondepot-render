@@ -20,7 +20,7 @@ middleware.use(cookieParser());
 
 middleware.use(cors({
     credentials: true,
-    origin: 'https://sabondepot-render-frontend.vercel.app',
+    origin: 'https://sabondepot-render-backend.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE']
 }))
 
