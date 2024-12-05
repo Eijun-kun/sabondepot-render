@@ -81,7 +81,7 @@ function StaffOrderSummaryPage() {
                         {
                             order.items.map((item) => (
                                 <div key={item.productId._id} className='order-item'>
-                                    <img src={`https://sabondepot-render-backend.onrender.com/${item.imageUrl}`} alt={item.productName} />
+                                    <img src={`https://sabondepot-render-backend.vercel.app/${item.imageUrl}`} alt={item.productName} />
                                     <div>
                                         <h3>{item.productName}</h3>
                                         <p>Price: Php {item.price}</p>

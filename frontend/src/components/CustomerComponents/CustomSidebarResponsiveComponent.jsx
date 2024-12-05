@@ -56,7 +56,7 @@ function CustomSidebarResponsiveComponent({customerCloseSidebar}) {
                         <li className='customer-sidebar-dropdown-container'>
                             <div className='customer-sidebar-dropdown-trigger' onClick={toggleDropdown}>
                                 <img
-                                src={(customer.profilePicture ? `https://sabondepot-render-backend.onrender.com/${customer.profilePicture}` : customerDefaultProfilePicture)}
+                                src={(customer.profilePicture ? `https://sabondepot-render-backend.vercel.app/${customer.profilePicture}` : customerDefaultProfilePicture)}
                                 className='profile-picture'
                                 alt={customer.fullName}
                                 />

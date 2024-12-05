@@ -162,7 +162,7 @@ function StaffModalProductsEditComponent({isOpen, onClose, selectedProduct, fetc
                     <label htmlFor="file-input">
                         <img
                         src={selectedImage ? (typeof selectedImage === 'string' 
-                            ? `https://sabondepot-render-backend.onrender.com/${selectedImage}` 
+                            ? `https://sabondepot-render-backend.vercel.app/${selectedImage}` 
                             : URL.createObjectURL(selectedImage)) 
                             : uploadIcon}
                         alt="upload placeholder"

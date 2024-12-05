@@ -49,7 +49,7 @@ function InvoiceModal({isOpen, onClose, order, subtotal, shippingCost}) {
                                 <td>
                                     <div className='product-info'>
                                         <img
-                                            src={`https://sabondepot-render-backend.onrender.com/${item.productId.imageUrl}`}
+                                            src={`https://sabondepot-render-backend.vercel.app/${item.productId.imageUrl}`}
                                             alt={item.productId.productName}
                                         />
                                         <span>{item.productId.productName}</span>

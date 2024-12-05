@@ -103,7 +103,7 @@ function StaffDirectOrdersDetailsPage() {
                                         style={{ cursor: 'pointer' }}
                                         >
                                             <img 
-                                            src={`https://sabondepot-render-backend.onrender.com/${relatedProduct.imageUrl}`} 
+                                            src={`https://sabondepot-render-backend.vercel.app/${relatedProduct.imageUrl}`} 
                                             alt={relatedProduct.productName} 
                                             />
                                         </li>
@@ -114,7 +114,7 @@ function StaffDirectOrdersDetailsPage() {
 
                         <div className='shop-products-right'>
                             <div className='product-image-container'>
-                                <img src={`https://sabondepot-render-backend.onrender.com/${product.imageUrl}`} alt={product.productName} />
+                                <img src={`https://sabondepot-render-backend.vercel.app/${product.imageUrl}`} alt={product.productName} />
                                 {
                                     shouldShowDiscount && (
                                         <div className='discount-badge'>

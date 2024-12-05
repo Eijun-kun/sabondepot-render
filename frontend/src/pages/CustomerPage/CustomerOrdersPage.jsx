@@ -64,7 +64,7 @@ function CustomerOrdersPage() {
                         {
                             order.items.map((item) => (
                                 <Link key={item._id} to={`/place-order/${customerId}/${order._id}`} className='order-item'>
-                                    <img src={`https://sabondepot-render-backend.onrender.com/${item.productId.imageUrl}`} alt={item.productId.productName} />
+                                    <img src={`https://sabondepot-render-backend.vercel.app/${item.productId.imageUrl}`} alt={item.productId.productName} />
                                     <div className='item-details'>
                                         <h3>{item.productId.productName}</h3>
                                         <span>

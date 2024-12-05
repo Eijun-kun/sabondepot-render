@@ -143,7 +143,7 @@ function StaffSettingsPage() {
             <div className='staff-profile-content'>
                 <div className='staff-profile-info'>
                     <img
-                    src={previewImage || (profilePicture ? `https://sabondepot-render-backend.onrender.com/${profilePicture}` : customerDefaultProfilePicture)}
+                    src={previewImage || (profilePicture ? `https://sabondepot-render-backend.vercel.app/${profilePicture}` : customerDefaultProfilePicture)}
                     alt="Profile"
                     className='staff-profile-picture'
                     onClick={handleImageClick}

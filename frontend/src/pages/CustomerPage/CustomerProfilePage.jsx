@@ -165,7 +165,7 @@ function CustomerProfilePage() {
             <div className='customer-profile-content'>
                 <div className='customer-profile-info'>
                     <img
-                    src={previewImage || (profilePicture ? `https://sabondepot-render-backend.onrender.com/${profilePicture}` : customerDefaultProfilePicture)}
+                    src={previewImage || (profilePicture ? `https://sabondepot-render-backend.vercel.app/${profilePicture}` : customerDefaultProfilePicture)}
                     alt="Profile"
                     className='customer-profile-picture'
                     onClick={handleImageClick}
