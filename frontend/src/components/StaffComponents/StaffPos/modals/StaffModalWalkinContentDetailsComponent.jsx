@@ -140,7 +140,7 @@ function StaffModalWalkinContentDetailsComponent({isOpen, onClose, cartItems, se
                                 cartItem.productId ? (
                                     <div key={cartItem._id} className='customer-modal-content-group'>
                                         <img
-                                            src={`https://sabondepot-render-backend.onrender.com/${cartItem.productId.imageUrl}`}
+                                            src={`https://sabondepot-render-frontend.onrender.com/${cartItem.productId.imageUrl}`}
                                             alt=''
                                             className='customer-modal-product-items'
                                         />

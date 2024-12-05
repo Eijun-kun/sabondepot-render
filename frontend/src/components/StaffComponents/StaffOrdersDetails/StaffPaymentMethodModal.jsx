@@ -44,7 +44,7 @@ function StaffPaymentMethodModal({isOpen, onClose, order, handleApprove}) {
                                         {
                         order.paymentProof && (
                             <div className='payment-proof'>
-                                <img src={`https://sabondepot-render-backend.onrender.com/${order.paymentProof}`}alt="" />
+                                <img src={`https://sabondepot-render-frontend.onrender.com/${order.paymentProof}`}alt="" />
                             </div>
                         )
                     }

@@ -97,7 +97,7 @@ function AdminModalWorkinProgressProductEditComponent({isOpen, onClose, selected
                     <label htmlFor="file-input">
                         <img
                         src={selectedImage ? (typeof selectedImage === 'string' 
-                            ? `https://sabondepot-render-backend.onrender.com/${selectedImage}` 
+                            ? `https://sabondepot-render-frontend.onrender.com/${selectedImage}` 
                             : URL.createObjectURL(selectedImage)) 
                             : uploadIcon}
                         alt="upload placeholder"
